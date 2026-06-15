@@ -13,7 +13,7 @@ const httpServer = createServer(app);
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://localhost:3000","https://caterers-near-me-frontend.vercel.app"],
     credentials: true,
   }),
 );

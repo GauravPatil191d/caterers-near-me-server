@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./build",
+
+    // Environment Settings
+    "module": "nodenext",
+    "target": "esnext",
+
+    // ✅ Add this — required for Blob, btoa, atob, Uint8Array, fetch
+    "lib": ["esnext", "DOM"],
+
+    // Style Options
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+
+    // Recommended Options
+    "strict": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
